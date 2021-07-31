@@ -6,16 +6,8 @@ body {
   font-size: 15px;
   font-family: Arial, Arial, Helvetica, sans-serif;
   line-height: 1.5;
- /* background-size: contain;*/
-}
-
-.parallax{
   background-image: url(../images/pattern.png);
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 a {
