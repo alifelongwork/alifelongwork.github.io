@@ -6,7 +6,7 @@ body {
   font-size: 15px;
   font-family: Arial, Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  background: #fff;
+  background: transparent url(../images/pattern.png);
 }
 
 a {
@@ -54,7 +54,7 @@ p.tagline {
 #main {
   margin-top: 20px;
   padding: 0 20px 90px;
-  background-color: #ddd;
+  background-color: #fff;
 }
 
 .download-bar {
