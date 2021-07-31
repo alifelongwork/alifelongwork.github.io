@@ -10,6 +10,14 @@ body {
   background-size: cover;
 }
 
+.parallax{
+  height = 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 a {
   color: #63a52a;
   text-decoration: none;
