@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Austin
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
