@@ -1,5 +1,9 @@
 ---
 layout: default
+title: A Life Long Work
+head: Austin Long
+author: Austin Long
+description: A synthesis of new ideas
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
