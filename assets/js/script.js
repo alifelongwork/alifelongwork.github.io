@@ -1,12 +1,4 @@
-function openNav(){
-  document.getElementById("ASideNav").style.width = "250px";
-  document.getElementById("main").style.marginLeft ="250px";
-}
 
-function closeNav(){
-  document.getElementById("ASideNav").style.width = "0";
-  document.getElementById("main").style.width = "0";
-}
 
 (function($) {
 $(document).ready(function(){
@@ -58,5 +50,14 @@ $(document).ready(function(){
     $(window).scrollTop(0);
     return false;
   })
+  function openNav(){
+  document.getElementById("ASideNav").style.width = "250px";
+  document.getElementById("main").style.marginLeft ="250px";
+  }
+
+  function closeNav(){
+  document.getElementById("ASideNav").style.width = "0";
+  document.getElementById("main").style.width = "0";
+  }
 });
 })(jQuery)
