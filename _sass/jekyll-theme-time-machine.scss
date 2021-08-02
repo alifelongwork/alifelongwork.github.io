@@ -44,6 +44,12 @@ h1.title {
   margin: 0 auto;
 }
 
+h1.section-heading-spacer{
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
 #container {
   border: 1px solid #2a2a2a;
   background: #ddd url(../images/pattern.png);
