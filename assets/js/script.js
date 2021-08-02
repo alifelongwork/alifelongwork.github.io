@@ -1,3 +1,11 @@
+function openNav(){
+  document.getElementById("ASideNav").style.width = "250px";
+}
+
+function closeNav(){
+  document.getElementById("ASideNav").style.width = "0";
+}
+
 (function($) {
 $(document).ready(function(){
 
