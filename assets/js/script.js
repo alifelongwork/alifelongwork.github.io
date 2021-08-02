@@ -1,19 +1,20 @@
+function openNav(){
+    document.getElementById("ASideNav").style.width = "250px";
+    document.getElementById("container").style.marginLeft ="250px";
+    };
 
+function closeNav(){
+    document.getElementById("ASideNav").style.width = "0";
+    document.getElementById("container").style.marginLeft = "0";
+    };
 
-    
 (function($) {
 
 $(document).ready(function(){
     
-$(document).openNav(function(){
-    document.getElementById("ASideNav").style.width = "250px";
-    document.getElementById("container").style.marginLeft ="250px";
-    });
+$(document).openNav();
 
-$(document).closeNav(function(){
-    document.getElementById("ASideNav").style.width = "0";
-    document.getElementById("container").style.marginLeft = "0";
-    });
+$(document).closeNav();
     
   // putting lines by the pre blocks
   $("pre").each(function(){
