@@ -17,7 +17,7 @@ There should be whitespace between paragraphs.
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # About Me
-
+<h1 class=section-heading-spacer></h1>
 I am an educator looking to innovate new ways of integrating education with Human-Computer Interactions. I have earned a B.Sc in Mechanical Engineering from California State University Northridge in 2015. I have also earned a M.Sc in Physics from CSU Northridge in 2019. I am presently aiming for a PhD within a related field that will help integrate and promote educational research and development through technology. I think this is achievable through the integration of visualization 
 
 ## Education
