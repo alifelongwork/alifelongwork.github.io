@@ -5,15 +5,15 @@
 
 $(document).ready(function(){
     
-function openNav(){
+$(document).openNav(function(){
     document.getElementById("ASideNav").style.width = "250px";
     document.getElementById("container").style.marginLeft ="250px";
-    }
+    });
 
-function closeNav(){
+$(document).closeNav(function(){
     document.getElementById("ASideNav").style.width = "0";
     document.getElementById("container").style.marginLeft = "0";
-    }
+    });
     
   // putting lines by the pre blocks
   $("pre").each(function(){
