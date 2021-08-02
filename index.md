@@ -6,6 +6,8 @@ author: Austin Long
 description: A synthesis of new ideas
 ---
 
+The foresight to see what can become, and the hindsight to see what has already been, combined to form a new way of thinking. Through innovation we can bring the things we imagine in to reality.
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
@@ -16,7 +18,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # About Me
 
-I am an educator looking to innovate new ways of integrating education with Human-Computer Interactions. I have a B.Sc in Mechanical Engineering from California State University Northridge in 2015. I have also earned a M.Sc in Physics from CSU Northridge in 2019. I am presently aiming for a PhD within a related field that will help integrate and promote educational research and development through technology. 
+I am an educator looking to innovate new ways of integrating education with Human-Computer Interactions. I have earned a B.Sc in Mechanical Engineering from California State University Northridge in 2015. I have also earned a M.Sc in Physics from CSU Northridge in 2019. I am presently aiming for a PhD within a related field that will help integrate and promote educational research and development through technology. I think this is achievable through the integration of visualization 
 
 ## Header 2
 
