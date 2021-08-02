@@ -2,7 +2,15 @@
 
 (function($) {
 $(document).ready(function(){
+    function openNav(){
+    document.getElementById("ASideNav").style.width = "250px";
+    document.getElementById("container").style.marginLeft ="250px";
+    }
 
+    function closeNav(){
+    document.getElementById("ASideNav").style.width = "0";
+    document.getElementById("container").style.marginLeft = "0";
+    }
   // putting lines by the pre blocks
   $("pre").each(function(){
     var pre = $(this).text().split("\n");
