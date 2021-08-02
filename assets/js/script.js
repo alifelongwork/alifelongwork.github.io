@@ -1,21 +1,7 @@
-function openNav(){
-    $(document).("ASideNav").style.width = "250px";
-    $(document).("container").style.marginLeft ="250px";
-    };
-
-function closeNav(){
-    $(document).("ASideNav").style.width = "0";
-    $(document).("container").style.marginLeft = "0";
-    };
-
 (function($) {
 
 $(document).ready(function(){
-    
-$(document).openNav();
 
-$(document).closeNav();
-    
   // putting lines by the pre blocks
   $("pre").each(function(){
     var pre = $(this).text().split("\n");
