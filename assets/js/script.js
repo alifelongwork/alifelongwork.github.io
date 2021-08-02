@@ -1,11 +1,11 @@
 function openNav(){
-    $(document)("ASideNav").style.width = "250px";
-    $(document)("container").style.marginLeft ="250px";
+    $(document).("ASideNav").style.width = "250px";
+    $(document).("container").style.marginLeft ="250px";
     };
 
 function closeNav(){
-    $(document)("ASideNav").style.width = "0";
-    $(document)("container").style.marginLeft = "0";
+    $(document).("ASideNav").style.width = "0";
+    $(document).("container").style.marginLeft = "0";
     };
 
 (function($) {
