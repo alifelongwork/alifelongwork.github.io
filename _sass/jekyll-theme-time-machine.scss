@@ -341,13 +341,15 @@ footer .owner {
 }
 
 footer .owner-text{
-  padding-top: 35px;
+  padding-top: 45px;
   padding-left: 25px;
   text-align: left;
-  color: #FFFFFF;
+  color: #FFFFFF;  
+  font-family:Georgia, serif;
 }
 
-footer .owner-text a{
+footer .owner-text a{  
+  font-style: italic;
 }
 
 footer .creds small {
