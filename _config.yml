@@ -3,6 +3,5 @@ description: A synthesis of new ideas
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-time-machine
-content: url(./pages/home.html)
 
    
