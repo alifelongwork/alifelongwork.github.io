@@ -1,5 +1,19 @@
-title: A Life Long Work
-description: A synthesis of new ideas
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-time-machine
+defaults:
+- 
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    title: A Life Long Work
+    description: A synthesis of new ideas
+    show_downloads: true
+    google_analytics:
+    theme: jekyll-theme-time-machine
+-
+  scope:
+    path: "pages"
+    type: "pages"
+  values:
+    layout: "page"
+    
+   
