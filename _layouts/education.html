@@ -1,1 +1,84 @@
-!doctype.html
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+
+{% seo %}
+
+  {% include head-custom.html %}
+</head>
+
+<body>
+  <div id="ASideNav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="./education.html">Education</a>
+    <a href="#">Experience</a>
+  </div>
+  <script>
+    function openNav(){
+    document.getElementById("ASideNav").style.width = "250px";
+    }
+
+    function closeNav(){
+    document.getElementById("ASideNav").style.width = "0";
+    }
+  </script>
+  <span onclick="openNav()">open</span>
+
+  
+  <div class="wrapper">
+    <header>
+      <h1 class="title">{{ site.title | default: site.github.repository_name }}</h1>
+    </header>
+    <div id="container">
+        <p class="intro">{{ site.description | default: site.github.project_tagline }}</p>
+        <div id="main" role="main">        
+          <article class="markdown-body">
+            <h1> Education</h1>
+            <h1 class="section-heading-spacer"></h1><br>
+            <h2> MSc in Physics and Astronomy</h2>
+            <ul>
+              <li><strong>2017 to 2019</strong></li>
+              <li>California State University, Northridge</li>
+              <li>Computational biophysics of heart arrythmias and calcium channels</li>
+              <li>Computational modeling of vortex formation in superfluid helium</li>
+            </ul>
+            <h1 class="section-heading-spacer"></h1><br>
+            <h2> BSc in Mechanical Engineering</h2>
+            <ul>
+              <li><strong>2008 to 2015</strong></li>
+              <li>California State University, Northridge</li>
+              <li>Alternative Energy senior design project to build solar panel structures on campus parking lots</li>
+              <li>Independent study of mechatronics and computer systems</li>
+            </ul>
+            <h1 class="section-heading-spacer"></h1><br>
+         </article>
+        </div>
+    </div>
+    <footer>
+      <div class="owner">
+      {% if site.github.is_project_page %}
+      <p><a href="{{ site.github.owner_url }}" class="avatar"><img src="{{ site.github.owner_gravatar_url }}" width="48" height="48"></a> <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> maintains <a href="{{ site.github.repository_url }}">{{ site.title | default: site.github.repository_name }}</a></p>
+      {% endif %}
+
+       {% if site.github.is_user_page %}
+      <p><a href="{{ site.github.owner_url }}" class="avatar"><img src="{{ site.github.owner_gravatar_url }}" width="48" height="48"></a>View <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> on <a href="https://www.github.com">GitHub</a></p>
+      {% endif %}
+
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+
+    <p class="name"></p>
+  </div>
+</body>
+</html>
