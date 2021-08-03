@@ -346,7 +346,6 @@ footer .creds small {
 }
 
 footer .owner .avatar {
-  text-align: center;
   background-color: #666;
   display: block;
   width: 120px;
@@ -362,7 +361,8 @@ footer .owner img {
   margin: 5px;
 }
 
-footer .owner p {
+footer .owner p {  
+  text-align: center;
   font-family:Georgia, serif;
 }
 
