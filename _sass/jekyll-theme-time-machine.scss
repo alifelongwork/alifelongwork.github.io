@@ -11,6 +11,7 @@ body {
 }
 
 .intro{
+  color: #FFFFFF;
   font-size: 35px;
 }
 
@@ -70,7 +71,7 @@ li{
 }
 
 a {
-  padding-top: 25px;
+  text-align: center;
   color: #63a52a;
   text-decoration: none;
   transition: opacity ease-in-out 0.3s;
@@ -363,7 +364,9 @@ footer .owner img {
   margin: 5px;
 }
 
-footer .owner p {   
+footer .owner p {
+  display: inline-block;
+  text-align: left;
   font-family:Georgia, serif;
   color:#FFFFFF;
 }
