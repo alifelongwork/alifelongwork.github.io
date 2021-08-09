@@ -31,7 +31,7 @@ body {
 .sidenav {
   height: 100%;
   width: 0;
-  position: relative;
+  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
@@ -60,6 +60,10 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+
+.sidenav .openbt{
+  position: relative;
 }
 
 @media screen and (max-height: 450px) {
